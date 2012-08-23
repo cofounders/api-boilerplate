@@ -1,0 +1,27 @@
+{
+	'name': 'api-boilerplate',
+	'description': 'A reasonable starting point for creating RESTful API services in Node.js',
+	'version': '0.1.0',
+	'homepage': 'http://api.cofounders.sg/',
+	'author': {
+		'name': 'Sebastiaan Deckers',
+		'email': 'seb@cofounders.sg'
+	},
+	'repository': {
+		'type': 'git',
+		'url': 'git://github.com/cofounders/api.git'
+	},
+	'licenses': [
+		{
+			'type': 'GPL3',
+			'url': 'http://api.cofounders.sg/LICENSE'
+		}
+	],
+	'dependencies': {
+		'mongoose': '*',
+		'express': '*',
+		'everyauth': '*',
+		'lodash': '*'
+	},
+	'keywords': []
+}
